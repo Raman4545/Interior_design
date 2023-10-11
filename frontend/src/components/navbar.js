@@ -14,8 +14,8 @@ const Navbar = () => {
   useEffect(() => {
     // Function to handle scroll event
    const handleScroll = () => {
-    const hello='500px';
-      if (window.scrollY > hello.toString()) {
+    
+      if (window.scrollY >100) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -73,11 +73,11 @@ const Navbar = () => {
             >
               Services
               <div className="dropdown-content">
-                <Link to={'/services1'}>Services1</Link>
-                <a href="#">Service 2</a>
-                <a href="#">Service 3</a>
-                <a href="#">Service 4</a>
-                <a href="#">Service 5</a>
+                <Link to={'/services1'}><div className='dash-dropdown'></div>Services1</Link>
+                <a href="#"><div className='dash-dropdown'></div>Service 2</a>
+                <a href="#"><div className='dash-dropdown'></div>Service 3</a>
+                <a href="#"><div className='dash-dropdown'></div>Service 4</a>
+                <a href="#"><div className='dash-dropdown'></div>Service 5</a>
               </div>
             </li>
             <li
@@ -88,9 +88,9 @@ const Navbar = () => {
             >
               Projects
               <div className="dropdown-content">
-                <a href="#">Project 1</a>
-                <a href="#">Project 2</a>
-                <a href="#">Project 3</a>
+                <a href="#"><div className='dash-dropdown'></div>Project 1</a>
+                <a href="#"><div className='dash-dropdown'></div>Project 2</a>
+                <a href="#"><div className='dash-dropdown'></div>Project 3</a>
               </div>
             </li>
             <li>Contacts</li>

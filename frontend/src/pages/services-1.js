@@ -1,17 +1,15 @@
 import React from 'react'
 import Navbar from '../components/navbar';
-import '../css/services-1.css';
+import Restrauntbanner from '../components/Restraunt-banner';
+
 
 
 const Services1 = () => {
   return (
-    <div className='main-container-ser'>
+    <div className='main-container-ser'
+    style={{margin:0,padding:0}}>
     <Navbar></Navbar>
-    <div className='container'>
-   
-    </div>
-    
-    <div className='container-2'></div>
+    <Restrauntbanner></Restrauntbanner>
     </div>
   )
 }
