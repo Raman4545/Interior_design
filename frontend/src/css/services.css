@@ -1,0 +1,127 @@
+.main-container-services {
+    width: 100%;
+    height: 190vh;
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    align-items: center;
+    justify-content: center;
+    
+   
+    padding-top: 20px;
+  }
+  .services-header{
+    margin-top: 30px;
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .services-grid {
+    display: grid;
+    background-color: rgb(85, 86, 86);
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-gap: 10px; /* Adjust the gap between cards */
+    /* Add padding to the grid */
+    justify-items: center; /* Center items horizontally within each cell */
+    width: 95%;
+    height: 90%;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+  }
+  
+  .service-card {
+    background-color: rgb(193, 185, 185);
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width:70%;
+    height: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 10);
+    position: relative;
+}
+
+.card-1{
+    background-image: url('../Images/pexels-emre-can-acer-2079249.jpg');
+    background-size: cover;
+}
+.card-2{
+  background-image: url('../Images/ai-generated-8154098_1280.jpg');
+  background-size: cover;
+}
+.card-3{
+  background-image: url('../Images/brick-wall-1850095_1280.jpg');
+  background-size: cover;
+}
+.card-4{
+  background-image: url('../Images/interior-design-1769614_1280.jpg');
+  background-size: cover;
+}
+.card-5{
+  background-image: url('../Images/pexels-emre-can-acer-2079249.jpg');
+  background-size: cover;
+}
+.card-6{
+  background-image: url('../Images/plant-791947_1280.jpg');
+  background-size: cover;
+}
+.service-card-header{
+    width: 100%;
+    height: 10%;
+    
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: white;
+}
+.service-card-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+}
+
+.service-card-btn{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.6s ease;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+.service-card-btn:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.company-logo-slider{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.sli-com{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-slide{
+    
+    height: 170px;
+    
+   
+}
+.image-slide{
+    
+    width: 70%;
+    height: 90%;
+}
