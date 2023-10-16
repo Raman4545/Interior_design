@@ -10,14 +10,7 @@ import Slider from '../components/slider';
 const Dashboard = () => {
   return (
     <div>
-    <Slider></Slider>
-    <Aboutcompany></Aboutcompany>
-    <CompanyLogoSlider></CompanyLogoSlider>
-    <Slickslider2></Slickslider2>
-    <Servicesbanner></Servicesbanner>
-    <Banner2></Banner2>
-    <Banner1></Banner1>
-    <Contacts></Contacts>
+    <h1>Hello</h1>
     </div>
   )
 }

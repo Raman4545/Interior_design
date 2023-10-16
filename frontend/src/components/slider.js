@@ -27,7 +27,7 @@ const SliderComponent = () => {
       backgroundImage: 'url(' + require('../Images/bg1.webp') + ')',
     },
     {
-      title: 'Best Interior Designs',
+      title: 'Kalyani Designs',
       content: 'We have best interior designs',
       backgroundImage: 'url(' + require('../Images/bg4.jpg') + ')',
     },
